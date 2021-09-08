@@ -99,7 +99,7 @@
         <div class="group relative">
           <div class="min-h-screen bg-gray-100 flex justify-center items-center">
             <div class="max-w-xs container bg-white rounded-xl shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-              <img class="w-full cursor-pointer" src="https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="" />
+              <img class="w-full cursor-pointer" src="/img/angkutan.png" alt="" />
               <div>
                 <h1 class="text-2xl lg:text-center mt-4 mb-4 text-gold cursor-pointer hover:text-gray-900 transition duration-100">ATCS</h1>
                 <section class="flex justify-center items-start">
@@ -119,7 +119,7 @@
                   <button onclick="document.getElementById('myModal2').showModal()" id="btn" class="mb-2 py-2 px-9 bg-blue-900 text-white rounded text shadow-xl">Detail</button>
                 </section>
               </div>
-              <img class="w-full cursor-pointer" src="https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="" />
+              <img class="w-full cursor-pointer" src="/img/pkb.png" alt="" />
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@
         <div class="group relative">
           <div class="min-h-screen bg-gray-100 flex justify-center items-center">
             <div class="max-w-xs container bg-white rounded-xl shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-              <img class="w-full cursor-pointer" src="https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="" />
+              <img class="w-full cursor-pointer" src="/img/angkutan.png" alt="" />
               <div>
                 <h1 class="text-2xl lg:text-center mt-4 mb-4 text-gold cursor-pointer hover:text-gray-900 transition duration-100">Angkutan</h1>
                 <section class="flex justify-center items-start">
@@ -147,7 +147,7 @@
                   <button onclick="document.getElementById('myModal4').showModal()" id="btn" class="mb-2 py-2 px-9 bg-blue-900 text-white rounded text shadow-xl">Detail</button>
                 </section>
               </div>
-              <img class="w-full cursor-pointer" src="https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="" />
+              <img class="w-full cursor-pointer" src="/img/pkb.png" alt="" />
             </div>
           </div>
         </div>
@@ -171,7 +171,7 @@
                 <h1 class="text-2xl mt-2 ml-4 font-bold text-gray-800 cursor-pointer hover:text-gray-900 transition duration-100">Lampara Look</h1>
                 <p class="ml-4 mt-1 mb-2 text-gray-700 hover:underline cursor-pointer">#by Saca Tuerca</p>
               </div>
-              <img class="w-full cursor-pointer" src="https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="" />
+              <img class="w-full cursor-pointer" src="/img/vm.png" alt="" />
               <div class="flex p-4 justify-between">
                 <div class="flex items-center space-x-2">
                   <img class="w-10 rounded-full" src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg" alt="sara" />
@@ -388,7 +388,7 @@
                     <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
                 </svg>
             </a>
-        </div>
+    </div>
     <div class="container mx-auto px-6">
         <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
             <div class="sm:w-2/3 text-center py-6">
