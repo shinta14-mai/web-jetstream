@@ -30,7 +30,7 @@
             <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
               <a href="/info" class="font-medium text-blue-700 hover:text-gray-900">Info</a>
 
-              <a href="/about" class="font-medium text-blue-700 hover:text-gray-900">About</a>
+              <a href="https://banyuwangikab.go.id/skpd/unit/20901/dinas-perhubungan.html" target="_blank" class="font-medium text-blue-700 hover:text-gray-900">About</a>
 
               <a href="/login" class="font-medium text-blue-900 hover:text-gold">Log in</a>
             </div>
@@ -56,7 +56,7 @@
           </div>
           <div class="px-2 pt-2 pb-3 space-y-1">
             <a href="/info" class="block px-3 py-2 rounded-md text-base font-medium text-blue-700 hover:text-gray-900 hover:bg-gray-50">Info</a>
-            <a href="/about" class="block px-3 py-2 rounded-md text-base font-medium text-blue-700 hover:text-gray-900 hover:bg-gray-50">About</a>
+            <a href="https://banyuwangikab.go.id/skpd/unit/20901/dinas-perhubungan.html" target="_blank" class="block px-3 py-2 rounded-md text-base font-medium text-blue-700 hover:text-gray-900 hover:bg-gray-50">About</a>
             <a href="/login" class="block px-3 py-2 rounded-md text-base font-medium text-blue-900 hover:text-gold hover:bg-gray-50">Log In</a>
           </div>
         </div>

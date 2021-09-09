@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use App\Models\Andalalin;
+use App\Models\Rekomteknis;
+use App\Models\Standartek;
 use Inertia\Inertia;
 use Illuminate\Http\Request;
 
@@ -35,11 +37,18 @@ class UserController extends Controller
         return Inertia::render('Info');
     }
 
-    public function search(Andalalin $id)
+    public function search(Request $request)
     {
-        $andal = Andalalin::find($id);
         return Inertia::render('Search', [
-            'andal' => $andal,
+            'andal' => Andalalin::when($request->term, function($query, $term,){
+                $query->where('code', 'LIKE', '%'.$term.'%');
+            })->get(),
+            'rt' => Rekomteknis::when($request->term, function($query, $term,){
+                $query->where('code', 'LIKE', '%'.$term.'%');
+            })->get(),
+            'st' => Standartek::when($request->term, function($query, $term,){
+                $query->where('code', 'LIKE', '%'.$term.'%');
+            })->get(),
         ]);
     }
 

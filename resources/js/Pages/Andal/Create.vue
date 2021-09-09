@@ -1,13 +1,15 @@
 <template>
-  <div>
+<div>
   <div class="md:grid md:grid-cols-3 md:gap-6">
-    <div class="md:col-span-1 bg-blue-900">
-      <div class="px-4 sm:px-0">
-        <h3 class="text-lg font-medium leading-6 text-gray-900">Profile</h3>
-        <p class="mt-1 text-sm text-gray-600">
-          This information will be displayed publicly so be careful what you share.
+    <div class="w-full bg-cover bg-center" style="height:56rem; background-image: url(http://dishub.banyuwangikab.go.id/img/front/carousel.jpg);">
+        <div class="flex items-center justify-center h-full w-full bg-blue-900 bg-opacity-95">
+      <div>
+        <h3 class="text-3xl font-medium leading-6 text-gold -mt-48">Profil</h3>
+        <p class="mt-1 text-lg text-white">
+          Pada bagian ini isikan identitas anda dan usaha anda pada kolom yang disediakan.
         </p>
       </div>
+        </div>
     </div>
     <div class="mt-5 md:mt-0 md:col-span-2">
       <form @submit.prevent="submit">
@@ -105,12 +107,17 @@
 <div class="mt-10 sm:mt-0">
   <div class="md:grid md:grid-cols-3 md:gap-6">
     <div class="md:col-span-1">
-      <div class="px-4 sm:px-0">
-        <h3 class="text-lg font-medium leading-6 text-gray-900">Personal Information</h3>
-        <p class="mt-1 text-sm text-gray-600">
-          Use a permanent address where you can receive mail.
+    <div class="w-full bg-cover bg-center" style="height:37rem; background-image: url(http://dishub.banyuwangikab.go.id/img/front/carousel.jpg);">
+        <div class="flex items-center justify-center h-full w-full bg-blue-900 bg-opacity-95">
+      <div>
+        <h3 class="text-3xl font-medium leading-6 text-gold -mt-48">Persyaratan</h3>
+        <p class="mt-1 text-lg text-white">
+          Pada bagian ini unggah persyaratan - persyaratan yang dibutuhkan
         </p>
+        <span class="text-gray-400">Catatan : file yang di unggah berekstensi pdf / jpg</span>
       </div>
+        </div>
+    </div>
     </div>
     <div class="mt-5 md:mt-0 md:col-span-2">
       <form @submit.prevent="submit">
