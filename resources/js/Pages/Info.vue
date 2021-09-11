@@ -1,7 +1,7 @@
 <template>
-<div class="bg-white overflow-hidden">
-  <div class="mx-auto">
-    <div class="relative z-10 bg-white lg:max-w-2xl lg:w-full">
+<div class="relative bg-white overflow-hidden">
+  <div class="max-w-7xl mx-auto">
+    <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
       <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
         <polygon points="50,0 100,0 50,100 0,100" />
       </svg>
@@ -11,9 +11,9 @@
           <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div class="flex items-center justify-between w-full md:w-auto">
-                <a href="/home">
+                <a href="#">
                   <span class="sr-only">Workflow</span>
-                  <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg">
+                  <img class="w-auto h-40 mt-14" src="/img/logo-dishub.png">
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
                   <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
@@ -29,13 +29,12 @@
             <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
               <a href="/info" class="font-medium text-blue-700 hover:text-gray-900">Info</a>
 
-              <a href="/about" class="font-medium text-blue-700 hover:text-gray-900">About</a>
+              <a href="https://banyuwangikab.go.id/skpd/unit/20901/dinas-perhubungan.html" target="_blank" class="font-medium text-blue-700 hover:text-gray-900">About</a>
 
-              <a href="/login" class="font-medium text-blue-900 hover:text-gold">Log in</a>
+              <a href="/login" class="font-medium text-blue-900 hover:text-gold">Login</a>
             </div>
-            <div class="mr-6">
-              <label for="search">Search</label>
-              <input type="text" id="search" v-model="term" @keyup="search" class="ml-2 px-2 py-1 text-sm rounded border">
+            <div class="px-6">
+              <input type="text" id="search" placeholder="Seacrh Your Code Here..." v-model="term" @keyup="search" class="ml-2 px-2 py-1 text-sm rounded border">
             </div>
           </nav>
         </div>

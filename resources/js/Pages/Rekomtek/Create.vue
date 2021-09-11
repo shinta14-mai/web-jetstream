@@ -1,10 +1,10 @@
 <template>
 <div>
   <div class="md:grid md:grid-cols-3 md:gap-6">
-    <div class="w-full bg-cover bg-center" style="height:56rem; background-image: url(http://dishub.banyuwangikab.go.id/img/front/carousel.jpg);">
-        <div class="flex items-center justify-center h-full w-full bg-blue-900 bg-opacity-95">
+    <div class="w-full bg-cover bg-center shadow sm:rounded-md sm:overflow-hidden" style="height:56rem; background-image: url(/img/logo-dis.png);">
+        <div class="flex py-48 px-2 justify-center h-full w-full bg-blue-900 bg-opacity-95">
       <div>
-        <h3 class="text-3xl font-medium leading-6 text-gold -mt-48">Profil</h3>
+        <h3 class="text-3xl font-medium leading-6 text-gold -mt-24">Identitas</h3>
         <p class="mt-1 text-lg text-white">
           Pada bagian ini isikan identitas anda dan usaha anda pada kolom yang disediakan.
         </p>
@@ -107,16 +107,23 @@
 <div class="mt-10 sm:mt-0">
   <div class="md:grid md:grid-cols-3 md:gap-6">
     <div class="md:col-span-1">
-    <div class="w-full bg-cover bg-center" style="height:37rem; background-image: url(http://dishub.banyuwangikab.go.id/img/front/carousel.jpg);">
-        <div class="flex items-center justify-center h-full w-full bg-blue-900 bg-opacity-95">
+    <div class="w-full bg-cover bg-center shadow sm:rounded-md sm:overflow-hidden" style="height:48rem; background-image:url(/img/logo-dis.png);">
+        <div class="flex py-48 px-2 justify-center h-full w-full bg-blue-900 bg-opacity-95">
       <div>
-        <h3 class="text-3xl font-medium leading-6 text-gold -mt-48">Persyaratan</h3>
+        <h3 class="text-3xl font-medium leading-6 text-gold -mt-24">Persyaratan</h3>
         <p class="mt-1 text-lg text-white">
           Pada bagian ini unggah persyaratan - persyaratan yang dibutuhkan
         </p>
-        <span class="text-gray-400">Catatan : file yang di unggah berekstensi pdf / jpg</span>
+        <br>
+        <span class="text-gray-400">Catatan : </span>
+        <br>
+        <span class="text-gray-400">1. File yang di unggah berekstensi pdf / jpg dengan ukuran masing - masing file maksimal 50MB.</span>
+        <br>
+        <span class="text-gray-400">2. Format penamaan file : NamaUsaha_JenisPersyaratan. Contoh : CahayaAbadi_SuratPermohonan</span>
+        <br>
+        <span class="text-gray-400">3. Semua kolom persyaratan wajib diisi</span>
       </div>
-        </div>
+    </div>
     </div>
     </div>
     <div class="mt-5 md:mt-0 md:col-span-2">
@@ -127,87 +134,88 @@
             <div class="form-group">
               <div class="row offset-2">
                 <div class="col-5">
-                  <label>Surat Permohonan</label>
+                  <label for="email" class="block text-sm font-medium text-gray-700">Surat Permohonan</label>
                 </div>
                 <div class="col-7">
                 <input type="file" name="file" id="surat_pemohon" @input="rt.surat_pemohon = $event.target.files[0]">
                 </div>
               </div>
-            </div>
+            </div><hr><br>
             <div class="form-group">
               <div class="row offset-2">
                 <div class="col-5">
-                  <label>Scan KTP</label>
+                  <label for="email" class="block text-sm font-medium text-gray-700">Scan KTP</label>
                 </div>
                 <div class="col-7">
                   <input type="file" name="file" id="ktp" @input="rt.ktp = $event.target.files[0]">
                 </div>
               </div>
-            </div>
+            </div><hr><br>
         <div class="form-group">
           <div class="row offset-2">
             <div class="col-5">
-              <label>Scan Sertifikat Tanah</label>
+              <label for="email" class="block text-sm font-medium text-gray-700">Scan Sertifikat Tanah</label>
             </div>
             <div class="col-7">
               <input type="file" name="file" id="sertifikat_tanah" @input="rt.sertifikat_tanah = $event.target.files[0]">
             </div>
           </div>
-        </div>
+        </div><hr><br>
         <div class="form-group">
           <div class="row offset-2">
             <div class="col-5">
-              <label>Kesesuaian Tata Ruang</label>
+              <label for="email" class="block text-sm font-medium text-gray-700">Kesesuaian Tata Ruang</label>
             </div>
             <div class="col-7">
               <input type="file" name="file" id="ktr" @input="rt.ktr = $event.target.files[0]">
             </div>
           </div>
-        </div>
+        </div><hr><br>
         <div class="form-group">
           <div class="row offset-2">
             <div class="col-5">
-              <label>Rencana Tapak/Site Plan</label>
+              <label for="email" class="block text-sm font-medium text-gray-700">Rencana Tapak / Site Plan</label>
             </div>
             <div class="col-7">
               <input type="file" name="file" id="rencana_tapak" @input="rt.rencana_tapak = $event.target.files[0]">
             </div>
           </div>
-        </div>
+        </div><hr><br>
         <div class="form-group">
           <div class="row offset-2">
             <div class="col-5">
-              <label>Desain Bangunan</label>
+              <label for="email" class="block text-sm font-medium text-gray-700">Desain Bangunan</label>
             </div>
             <div class="col-7">
               <input type="file" name="file" id="desain_bangunan" @input="rt.desain_bangunan = $event.target.files[0]">
             </div>
           </div>
-        </div>
+        </div><hr><br>
         <div class="form-group">
           <div class="row offset-2">
             <div class="col-5">
-              <label>Company Profile Penyusun</label>
+              <label for="email" class="block text-sm font-medium text-gray-700">Company Profile Penyusun</label>
             </div>
             <div class="col-7">
               <input type="file" name="file" id="company_profile" @input="rt.company_profile = $event.target.files[0]">
             </div>
           </div>
-        </div>
+        </div><hr><br>
         <div class="form-group">
           <div class="row offset-2">
             <div class="col-5">
-              <label>Sertifikat Penyususn</label>
+              <label for="email" class="block text-sm font-medium text-gray-700">Sertifikat Penyusun</label>
             </div>
             <div class="col-7">
               <input type="file" name="file" id="sertifikat_penyusun" @input="rt.sertifikat_penyusun = $event.target.files[0]">
             </div>
           </div>
         </div>
+        <hr><br>
         <div class="form-group">
           <div class="row offset-2">
             <div class="col-5">
-              <label>Dokumen Andalalin</label>
+              <label for="email" class="block text-sm font-medium text-gray-700">Dokumen Andalalin</label>
             </div>
             <div class="col-7">
               <input type="file" name="file" id="dokumen_andalalin" @input="rt.dokumen_andalalin = $event.target.files[0]">

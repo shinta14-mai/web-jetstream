@@ -14,7 +14,7 @@
               <div class="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
                   <span class="sr-only">Workflow</span>
-                  <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg">
+                  <img class="w-auto h-40 mt-14" src="/img/logo-dishub.png">
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
                   <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
@@ -42,7 +42,7 @@
         <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
           <div class="px-5 pt-4 flex items-center justify-between">
             <div>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+              <img class="h-10 w-auto" src="/img/logo-dishub.png" alt="">
             </div>
             <div class="-mr-2">
               <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -92,14 +92,14 @@
 <!-- Card Bidang -->
 <div class="relative bg-gray-100">
   <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6">
-    <div class="max-w-2xl mx-auto py-5 sm:py-13 lg:py-21 lg:max-w-none">
+    <div class="max-w-2xl mx-auto py-3 sm:py-13 lg:py-21 lg:max-w-none">
       <h2 class="text-2xl font-extrabold text-gray-900">Bidang</h2>
       <div class="mt-1 space-y-6 lg:space-y-0 lg:grid lg:grid-cols-4 lg:gap-x-6">
 
         <div class="group relative">
           <div class="min-h-screen bg-gray-100 flex justify-center items-center">
             <div class="max-w-xs container bg-white rounded-xl shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-              <img class="w-full cursor-pointer" src="/img/angkutan.png" alt="" />
+              <img class="w-full cursor-pointer" src="/img/logo-atcs.jpg" alt="" />
               <div>
                 <h1 class="text-2xl lg:text-center mt-4 mb-4 text-gold cursor-pointer hover:text-gray-900 transition duration-100">ATCS</h1>
                 <section class="flex justify-center items-start">
@@ -119,7 +119,7 @@
                   <button onclick="document.getElementById('myModal2').showModal()" id="btn" class="mb-2 py-2 px-9 bg-blue-900 text-white rounded text shadow-xl">Detail</button>
                 </section>
               </div>
-              <img class="w-full cursor-pointer" src="/img/pkb.png" alt="" />
+              <img class="w-full cursor-pointer" src="/img/logo-pkb.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@
         <div class="group relative">
           <div class="min-h-screen bg-gray-100 flex justify-center items-center">
             <div class="max-w-xs container bg-white rounded-xl shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-              <img class="w-full cursor-pointer" src="/img/angkutan.png" alt="" />
+              <img class="w-full cursor-pointer" src="/img/logo-angkutan.jpg" alt="" />
               <div>
                 <h1 class="text-2xl lg:text-center mt-4 mb-4 text-gold cursor-pointer hover:text-gray-900 transition duration-100">Angkutan</h1>
                 <section class="flex justify-center items-start">
@@ -147,7 +147,7 @@
                   <button onclick="document.getElementById('myModal4').showModal()" id="btn" class="mb-2 py-2 px-9 bg-blue-900 text-white rounded text shadow-xl">Detail</button>
                 </section>
               </div>
-              <img class="w-full cursor-pointer" src="/img/pkb.png" alt="" />
+              <img class="w-full cursor-pointer" src="/img/logo-lalin.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -160,101 +160,24 @@
 <div class="relative bg-white overflow-hidden">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-2xl mx-auto py-10 sm:py-18 lg:py-26 lg:max-w-none">
-      <h2 class="text-2xl font-extrabold text-gray-900 lg:text-right">Visi Misi</h2>
-
       <div class="mt-2 space-y-8 lg:space-y-0 lg:grid lg:grid-cols-4 lg:gap-x-6">
         <div class="group relative">
           <div class="min-h-screen bg-gray-100 flex justify-center items-center">
             <div class="max-w-xs container bg-white rounded-xl shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-              <div>
-                <span class="text-white text-xs font-bold rounded-lg bg-green-500 inline-block mt-4 ml-4 py-1.5 px-4 cursor-pointer">Home</span>
-                <h1 class="text-2xl mt-2 ml-4 font-bold text-gray-800 cursor-pointer hover:text-gray-900 transition duration-100">Lampara Look</h1>
-                <p class="ml-4 mt-1 mb-2 text-gray-700 hover:underline cursor-pointer">#by Saca Tuerca</p>
-              </div>
               <img class="w-full cursor-pointer" src="/img/vm.png" alt="" />
-              <div class="flex p-4 justify-between">
-                <div class="flex items-center space-x-2">
-                  <img class="w-10 rounded-full" src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg" alt="sara" />
-                  <h2 class="text-gray-800 font-bold cursor-pointer">Felipe Sacudon</h2>
-                </div>
-                <div class="flex space-x-2">
-                  <div class="flex space-x-1 items-center">
-                    <span>
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                      </svg>
-                    </span>
-                    <span>22</span>
-                  </div>
-                  <div class="flex space-x-1 items-center">
-                    <span>
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-500 hover:text-red-400 transition duration-100 cursor-pointer" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
-                      </svg>
-                    </span>
-                    <span>20</span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
 
-        <div class="group relative">
-          <div class="min-h-screen bg-gray-100 flex justify-center items-center">
-            <div class="max-w-xs container bg-white rounded-xl shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
-              <div>
-                <span class="text-white text-xs font-bold rounded-lg bg-green-500 inline-block mt-4 ml-4 py-1.5 px-4 cursor-pointer">Home</span>
-                <h1 class="text-2xl mt-2 ml-4 font-bold text-gray-800 cursor-pointer hover:text-gray-900 transition duration-100">Lampara Look</h1>
-                <p class="ml-4 mt-1 mb-2 text-gray-700 hover:underline cursor-pointer">#by Saca Tuerca</p>
-              </div>
-              <img class="w-full cursor-pointer" src="https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="" />
-              <div class="flex p-4 justify-between">
-                <div class="flex items-center space-x-2">
-                  <img class="w-10 rounded-full" src="https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg" alt="sara" />
-                  <h2 class="text-gray-800 font-bold cursor-pointer">Felipe Sacudon</h2>
-                </div>
-                <div class="flex space-x-2">
-                  <div class="flex space-x-1 items-center">
-                    <span>
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-gray-600 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                      </svg>
-                    </span>
-                    <span>22</span>
-                  </div>
-                  <div class="flex space-x-1 items-center">
-                    <span>
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-500 hover:text-red-400 transition duration-100 cursor-pointer" viewBox="0 0 20 20" fill="currentColor">
-                      <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
-                      </svg>
-                    </span>
-                    <span>20</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-              <main class="mt-8 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-        <div class="sm:text-center lg:text-left">
-          <h5 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
-            <span class="block xl:inline">Dinas Perhubungan</span>
-          </h5>
-          <h3 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            <span class="block xl:inline text-indigo-900">Kabupaten Banyuwangi</span>
+        <main class="mt-8 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-10 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <div class="sm:text-center lg:text-left py-16">
+          <h3 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
+            <span class="block xl:inline text-gold">Visi Misi</span>
           </h3>
-          <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-             Jl. K.H. Agus Salim No.83, Taman Baru, Kec. Banyuwangi, Kabupaten Banyuwangi, Jawa Timur 68416
+          <p class="mt-3 text-base text-blue-900 font-bold sm:mt-5 sm:text-xl sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+             Dinas Perhubungan Kabupaten Banyuwangi
           </p>
-          <div class="mt-3 sm:mt-6 sm:flex sm:justify-center lg:justify-start">
-            <div class="rounded-md shadow">
-              <a href="https://goo.gl/maps/1kaYBo21cg5hfP5w6" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-2 md:text-lg md:px-8">
-                Lihat Lokasi
-              </a>
-            </div>
-          </div>
         </div>
       </main>
 
@@ -393,7 +316,7 @@
         <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
             <div class="sm:w-2/3 text-center py-6">
                 <p class="text-sm text-blue-700 font-bold mb-2">
-                    © 2020 by Pavlove BIOKOU
+                    © 2021
                 </p>
             </div>
         </div>
