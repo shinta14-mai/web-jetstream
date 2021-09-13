@@ -19,7 +19,7 @@ class RekomteknisController extends Controller
         return Inertia::render('Rekomtek/Index', [
             'rt' => Rekomteknis::when($request->term, function($query, $term){
                 $query->where('code', 'LIKE', '%'.$term.'%');
-            })->paginate(),
+            })->orderBy('id', 'DESC')->paginate(),
         ]);
     }
 

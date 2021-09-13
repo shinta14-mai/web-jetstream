@@ -19,7 +19,7 @@ class StandartekController extends Controller
         return Inertia::render('Standartek/Index', [
             'st' => Standartek::when($request->term, function($query, $term){
                 $query->where('code', 'LIKE', '%'.$term.'%');
-            })->paginate(),
+            })->orderBy('id', 'DESC')->paginate(),
         ]);
     }
 

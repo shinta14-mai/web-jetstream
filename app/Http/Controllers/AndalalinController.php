@@ -18,8 +18,8 @@ class AndalalinController extends Controller
     {
         return Inertia::render('Andal/Index', [
             'andal' => Andalalin::when($request->term, function($query, $term,){
-                $query->where('code', 'LIKE', '%'.$term.'%')->orderBy('id', 'DESC');
-            })->paginate(),
+                $query->where('code', 'LIKE', '%'.$term.'%');
+            })->orderBy('id', 'DESC')->paginate(),
         ]);
     }
 
